@@ -1,0 +1,55 @@
+.cont .inner .top ul li { cursor: pointer; }
+
+.cont .inner .top ul li.on { cursor: default; }
+
+.range-overlay { position: absolute; background-color: #16a085; opacity:0.9; color: #FFF; padding: 2px 2px; line-height: 18px; white-space: nowrap; cursor: pointer; display: flex; justify-content: center; align-items: center; font-size: 15px; font-weight: bold; width: 90px; height: 90px; border-radius: 50%; }
+
+.range-overlay span { color: #FFF; text-align: center; }
+
+.building-parent { position: absolute; line-height: 18px; white-space: nowrap; MozUserSelect: none; cursor: pointer; display: flex; justify-content: center; align-items: center; }
+
+.building-parent span { font-size: 14px; }
+
+.building-parent .building-infoWindow { position: absolute; bottom: 50px; left: -150px; width: 330px !important; height: auto !important; background-color: #FFF; border-radius: 5px; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); }
+
+.building-parent .building-infoWindow h2 { height: 50px; line-height: 55px; margin: 0; padding: 0 15px; font-size: 16px; font-weight: 400; color: #555; cursor: default; }
+
+.building-parent .building-infoWindow h2 span.price { float: right; line-height: 14px; padding-top: 20px; cursor: pointer; }
+
+.building-parent .building-infoWindow p { width: 300px; height: 235px; padding: 0 15px; margin: 0; }
+
+.building-parent .building-infoWindow p a { display: block; height: 235px; }
+
+.building-parent .building-infoWindow p a img { width: 300px; height: 235px; }
+
+.building-parent .building-infoWindow ul { display: block; width: 300px !important; height: auto !important; background-color: #FFF; padding: 0 15px 0 15px; }
+
+.building-parent .building-infoWindow ul li { height: 35px; line-height: 35px; padding: 8px 0; color: #B2B2B2; border-bottom: 1px #DFDFDF solid; }
+
+.building-parent .building-infoWindow ul li a { display: block; height: 35px; color: #B2B2B2; font-size: 14px; cursor: default; }
+
+.building-parent .building-infoWindow ul li a span { display: block; width: 67px; height: 35px; line-height: 35px; float: left; }
+
+.building-parent .building-infoWindow ul li a span.w110 { width: 110px; }
+
+.building-parent .building-infoWindow ul li a img { width: 56px; height: 35px; }
+
+.building-parent .building-infoWindow ul li:last-child { border: none; }
+
+.building-parent .building-infoWindow ul li.more { text-align: center; }
+
+.building-parent .building-infoWindow ul li.more a { display: inline-block; cursor: pointer; }
+
+.building-parent .building-infoWindow ul li.more a:hover { color: #626262; }
+
+.building-parent .building-infoWindow:before { position: absolute; content: ''; left: 145px; bottom: -24px; width: 0; height: 0; border: transparent 12px solid; border-top: 12px solid #FFF; }
+
+.building-parent .building-overlay { position: relative; }
+
+.building-parent .building-overlay .arrow { position: absolute; top: 25px; background: url(../images/label.png) no-repeat; font-size: 18px; overflow: hidden; background-position: 0 0; width: 11px; height: 10px; }
+
+.building-parent .building-overlay span { position: relative; background-color: #EE5D5B; color: #FFF; padding: 4px 7px; line-height: 18px; white-space: nowrap; cursor: pointer; display: flex; justify-content: center; align-items: center; top: 0; left: -33px; min-width: 70px; font-size: 14px; border-radius: 5px; }
+
+.building-parent .building-overlay:hover span { background-color: #6BADCA; }
+
+.building-parent .building-overlay:hover .arrow { background-position: 0px -20px; }
